@@ -1,128 +1,57 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tandoor Restaurant</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #fffaf5;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1600628422019-6c0d61f06c92');
-      background-size: cover;
-      background-position: center;
-      color: #fff;
-      padding: 80px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 12px 25px;
-      margin: 5px;
-      background-color: #c0392b;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    .section h2 {
-      text-align: center;
-      margin-bottom: 40px;
-      color: #c0392b;
-    }
-    .about, .reviews, .menu {
-      text-align: center;
-    }
-    .menu-items {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .stars {
-      color: #f1c40f;
-      font-size: 18px;
-    }
-    footer {
-      background-color: #2c2c2c;
-      color: #fff;
-      text-align: center;
-      padding: 30px 20px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tandoor Restaurant | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>  <!-- Hero Section -->  <header>
-    <h1>Tandoor</h1>
-    <p>Delicious Tandoori Flavors at Affordable Prices</p>
-    <a href="#menu" class="btn">View Menu</a>
-    <a href="#contact" class="btn">Book a Table</a>
-  </header>  <!-- About Section -->  <section class="section about">
-    <h2>About Us</h2>
-    <p>
-      Welcome to <strong>Tandoor</strong>, where authentic flavors meet affordability. 
-      We offer a wide variety of mouth-watering tandoori dishes, combo meals, and signature recipes 
-      crafted to satisfy every craving without stretching your budget.
-    </p>
-  </section>  <!-- Menu Highlights -->  <section class="section menu" id="menu">
-    <h2>Menu Highlights</h2>
-    <div class="menu-items">
-      <div class="card">
-        <h3>Tandoori Specials</h3>
-        <p>Classic tandoori dishes cooked to perfection with rich spices and smoky flavors.</p>
-      </div>
-      <div class="card">
-        <h3>Combo Meals</h3>
-        <p>Value-for-money combo meals perfect for individuals and families.</p>
-      </div>
-      <div class="card">
-        <h3>Signature Dishes</h3>
-        <p>Customer-favorite dishes loved for taste, quality, and generous portions.</p>
-      </div>
-    </div>
-    <p style="margin-top: 20px;"><strong>Price Range:</strong> ₹200 – ₹400</p>
-  </section>  <!-- Reviews Section -->  <section class="section reviews">
-    <h2>What Our Customers Say</h2>
-    <div class="menu-items">
-      <div class="card">
-        <div class="stars">★★★★★</div>
-        <p>
-          "The food in this restaurant is very delicious and very affordable with a menu that has many varieties of food from tandooris to combo meals."
-        </p>
-        <strong>— Gourav Chaki</strong>
-      </div>
-      <div class="card">
-        <div class="stars">★★★★★</div>
-        <p>
-          "Absolutely outstanding experience at Tandoor! The ambiance was warm and stylish, and the staff was attentive and friendly."
-        </p>
-        <strong>— Dj Bama</strong>
-      </div>
-    </div>
-  </section>  <!-- Contact / Footer -->  <footer id="contact">
-    <h3>Visit Tandoor Today</h3>
-    <p>Great food • Warm ambiance • Affordable prices</p>
-    <p>📍 Location: Your Address Here | 📞 Phone: +91-XXXXXXXXXX</p>
-    <p>© 2025 Tandoor Restaurant. All rights reserved.</p>
-  </footer></body>
+<body>
+
+<nav class="nav">
+  <h1>Tandoor</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h2>Delicious Tandoori Flavors</h2>
+    <p>Affordable • Authentic • Loved by Customers</p>
+    <a href="menu.html" class="btn">View Menu</a>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Why Choose Tandoor?</h2>
+  <p>
+    Enjoy delicious and affordable food with a wide variety of tandoori dishes,
+    combo meals, and signature flavors in a warm and stylish ambiance.
+  </p>
+</section>
+
+<section class="section reviews">
+  <h2>Customer Reviews</h2>
+
+  <div class="card">
+    ⭐⭐⭐⭐⭐<br>
+    “Very delicious and affordable food with many varieties from tandoori to combo meals.”<br>
+    <strong>— Gourav Chaki</strong>
+  </div>
+
+  <div class="card">
+    ⭐⭐⭐⭐⭐<br>
+    “Absolutely outstanding experience! Warm ambiance and friendly staff.”<br>
+    <strong>— Dj Bama</strong>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Tandoor Restaurant</p>
+</footer>
+
+</body>
 </html>
